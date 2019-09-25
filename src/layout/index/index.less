@@ -1,0 +1,162 @@
+#app {
+  height: 100%;
+  overflow-y: auto;
+}
+.index-head-warp {
+  color: #fff;
+  line-height: 64px;
+  font-size: 14px;
+  .anticon {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 24px;
+  }
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.index-nav-logo {
+  padding: 15px 0;
+}
+.index-nav-items {
+  line-height: 40px;
+  a {
+    color: rgba(0, 0, 0, 0.65);
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s;
+    &:hover {
+      color: #096dd3;
+      border-bottom-color: #096dd3;
+    }
+  }
+}
+.index-header-box {
+  padding: 0;
+  overflow: hidden;
+}
+.index-content-box {
+  background: #fff;
+  overflow: hidden;
+}
+
+.index-footer-box {
+  padding: 24px 0;
+  background: #000;
+  overflow: hidden;
+}
+.index-footer-warp {
+  .follow {
+    line-height: 40px;
+    .follow-icons {
+      a.follow-icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 24px;
+        background: rgba(30, 30, 30, 0.781);
+        color: rgba(255, 255, 255, 0.8);
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 100%;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a {
+      line-height: 26px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8);;
+    }
+  }
+  .sign-me {
+    width: 170px;
+    .emalInput {
+      margin: 20px 0;
+      input.ant-input {
+        border: 1px solid #222;
+        background: #000;
+        color: #999;
+        &:focus {
+          box-shadow: 0 0 0 2px rgba(14, 43, 70, 0.2);
+        }
+      }
+    }
+    .emalBtn {
+      background: #505050;
+      border-color: #ccc;
+      &::after {
+        border: 0 solid #000;
+      }
+    }
+  }
+}
+
+.payment-icons {
+  display: inline-block;
+  background-image: url('../../statics/img/payment.png');
+  width: 37px;
+  height: 25px;
+  vertical-align: top;
+  margin-right: 5px;
+  &.paypal {
+    background-position: 0 0;
+  }
+  &.visa {
+    background-position: 0 -30px;
+  }
+  &.mast {
+    background-position: 0 -60px;
+  }
+  &.disc {
+    background-position: 0 -90px;
+  }
+}
+
+.head-user {
+  .ant-breadcrumb-link {
+    font-size: 14px;
+    line-height: 64px;
+    a {
+      color: #fff;
+    }
+  }
+  .ant-breadcrumb-separator {
+    color: #fff;
+  }
+}
+
+.reg-modal {
+  position: relative;
+  width: 1083px;
+  height: 774px;
+  background: url('../../statics/img/reg.png') no-repeat 0 0;
+  .reg-colse {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    top: 17px;
+    right: 32px;
+  }
+  .reg-btn {
+    position: absolute;
+    width: 420px;
+    height: 70px;
+    cursor: pointer;
+    bottom: 160px;
+    right: 65px;
+  }
+}

@@ -1,0 +1,100 @@
+.compose-option-item {
+  margin-top: 20px;
+}
+
+.compose-options-position {
+  .position-box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+  }
+  .position-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+    z-index: 0;
+    box-shadow: 0 0 10px 0px #ccc;
+    .position-line {
+      width: 100%;
+      height: 1px;
+      background: #ddd;
+      &.position-line-r {
+        transform: rotate(135deg);
+      }
+      &.position-line-l {
+        margin-top: 48px;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  .position-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    .anticon {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      color: #888;
+      cursor: pointer;
+      &.anticon-caret-down {
+        left: 36px;
+        top: 66px;
+      }
+      &.anticon-caret-up {
+        left: 36px;
+        top: 4px;
+      }
+      &.anticon-caret-left {
+        left: 5px;
+        top: 36px;
+      }
+      &.anticon-caret-right {
+        right: 3px;
+        top: 34px;
+      }
+    }
+  }
+}
+
+.flower-have-box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  background: #fafafa;
+  text-align: center;
+  line-height: 78px;
+  color: #ccc;
+  &:hover {
+    border-color: #40a9ff;
+  }
+}
+
+.flower-remove {
+  text-align: center;
+  .anticon {
+    display: none;
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    text-align: center;
+    line-height: 98px;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  &:hover {
+    .anticon {
+      display: inline-block;
+    }
+  }
+}

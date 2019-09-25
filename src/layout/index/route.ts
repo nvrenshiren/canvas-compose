@@ -1,0 +1,6 @@
+import '../../index/home/route'
+import '../../index/product/route'
+import '../../index/shopping/route'
+import '../../index/user/route'
+import '../../index/flower/route'
+import '../../index/desgin/route'
